@@ -96,17 +96,15 @@
         {
           "authors": ["Renkai Jiang", "Shuwei Song", "Xiapu Luo", "Ting Chen", "Ruijie Luo", "Bingsen Wang", "Ao Qiao"],
           "title": "DEALS: Tracking Token Transfer Information Inconsistency",
-          "venue": "Journal of Computer Research and Development, 61(2): 274-288",
+          "venue": "Journal of Computer Research and Development",
           "year": 2024,
-          "doi": "10.7544/issn1000-1239.202330613",
           "ccf": "A"
         },
         {
           "authors": ["Shuwei Song", "Xiaoze Ni", "Ting Chen"],
           "title": "Gas Optimization for Smart Contracts: A Survey",
-          "venue": "Journal of Computer Research and Development, 60(2): 311-325",
+          "venue": "Journal of Computer Research and Development",
           "year": 2023,
-          "doi": "10.7544/issn1000-1239.202220887",
           "ccf": "A"
         },
         {
