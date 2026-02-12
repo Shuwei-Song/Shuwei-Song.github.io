@@ -1,24 +1,15 @@
-# Shuwei-Song.github.io
+# Shuwei Song
 
-Personal academic homepage for GitHub Pages.
+Personal academic homepage.
 
-## Project Structure
+Homepage: [https://shuwei-song.github.io/](https://shuwei-song.github.io/)
 
-- `index.html`: single-page homepage
-- `styles.css`: minimal academic styling
-- `assets/avatar.jpg`: profile photo (add this file manually)
+## About
 
-## Publish with GitHub Pages
+Shuwei Song is a PhD student in Cyberspace Security at the University of Electronic Science and Technology of China (UESTC). His research interests include blockchain, smart contract security, and software engineering.
 
-1. Push this repository to GitHub (repository name: `Shuwei-Song.github.io`).
-2. Open repository `Settings` -> `Pages`.
-3. In `Build and deployment`, choose:
-   - `Source`: `Deploy from a branch`
-   - `Branch`: `main` and `/ (root)`
-4. Save and wait for deployment.
-5. Visit: `https://shuwei-song.github.io/`
+## Links
 
-## Update Content
-
-- Edit `index.html` to update biography, education, and publications.
-- Replace `assets/avatar.jpg` with your own image.
+- Google Scholar: [https://scholar.google.com/citations?user=acJtFrwAAAAJ](https://scholar.google.com/citations?user=acJtFrwAAAAJ)
+- ORCID: [https://orcid.org/0000-0003-4368-0950](https://orcid.org/0000-0003-4368-0950)
+- GitHub: [https://github.com/Shuwei-Song](https://github.com/Shuwei-Song)

@@ -1,0 +1,129 @@
+{
+  "groups": [
+    {
+      "title": "Conference Papers",
+      "items": [
+        {
+          "authors": ["Feng Luo", "Zihao Li", "Wenxuan Luo", "Zheyuan He", "Xiapu Luo", "Zuchao Ma", "Shuwei Song", "Ting Chen"],
+          "title": "Light into Darkness: Demystifying Profit Strategies Throughout the MEV Bot Lifecycle",
+          "venue": "Network and Distributed System Security Symposium (NDSS)",
+          "year": 2026,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Zheyuan He", "Zihao Li", "Jiahao Luo", "Feng Luo", "Junhan Duan", "Jingwei Li", "Shuwei Song", "Xiapu Luo", "Ting Chen", "Xiaosong Zhang"],
+          "title": "Auspex: Unveiling Inconsistency Bugs of Transaction Fee Mechanism in Blockchain",
+          "venue": "USENIX Security Symposium (USENIX Security)",
+          "year": 2025,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Shuwei Song", "Ting Chen", "Ao Qiao", "Xiapu Luo", "Leqing Wang", "Zheyuan He", "Ting Wang", "Xiaodong Lin", "Peng He", "Wensheng Zhang", "Xiaosong Zhang"],
+          "title": "Automated and Accurate Token Transfer Identification and Its Applications in Cryptocurrency Security",
+          "venue": "ACM International Conference on the Foundations of Software Engineering (FSE)",
+          "year": 2025,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Zheyuan He", "Zihao Li", "Ao Qiao", "Jingwei Li", "Feng Luo", "Sen Yang", "Gelei Deng", "Shuwei Song", "Xiaosong Zhang", "Ting Chen", "Xiapu Luo"],
+          "title": "Maat: Analyzing and Optimizing Overcharge on Blockchain Storage",
+          "venue": "USENIX Conference on File and Storage Technologies (FAST)",
+          "year": 2025,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Jiahao He", "Jianfei Zhou", "Peicheng Miao", "Yongjie Zhang", "Ting Chen", "Renkai Jiang", "Shuwei Song", "Tianxing Jiang"],
+          "title": "AntFuzzer: A Grey-Box Fuzzing Framework for EOSIO Smart Contracts",
+          "venue": "IEEE International Conference on High Performance Computing and Communications (HPCC)",
+          "year": 2024,
+          "note": "Best Student Paper",
+          "ccf": "C"
+        },
+        {
+          "authors": ["Feng Luo", "Huangkun Lin", "Zihao Li", "Xiapu Luo", "Ruijie Luo", "Zheyuan He", "Shuwei Song", "Ting Chen", "Wenxuan Luo"],
+          "title": "Towards Automatic Discovery of Denial of Service Weaknesses in Blockchain Resource Models",
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "year": 2024,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Shuwei Song", "Jiachi Chen", "Ting Chen", "Xiapu Luo", "Teng Li", "Wenwu Yang", "Leqing Wang", "Weijie Zhang", "Feng Luo", "Zheyuan He", "Yi Lu", "Pan Li"],
+          "title": "Empirical Study of Move Smart Contract Security: Introducing MoveScan for Enhanced Analysis",
+          "venue": "ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+          "year": 2024,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Shuwei Song", "Zhou Liao", "Ting Chen", "Xiapu Luo", "Yongjie Zhang", "Guopeng Wang"],
+          "title": "An Empirical Study on the Performance of EVMs and Wasm VMs for Smart Contract Execution",
+          "venue": "International Conference on Blockchain, Metaverse and Trustworthy Systems (BlockSys)",
+          "year": 2024,
+          "note": "Best Paper"
+        },
+        {
+          "authors": ["Zheyuan He", "Zihao Li", "Ao Qiao", "Xiapu Luo", "Xiaosong Zhang", "Ting Chen", "Shuwei Song", "Dijun Liu", "Weina Niu"],
+          "title": "NURGLE: Exacerbating Resource Consumption in Blockchain State Storage via MPT Manipulation",
+          "venue": "IEEE Symposium on Security and Privacy (S&P)",
+          "year": 2024,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Feng Luo", "Ruijie Luo", "Ting Chen", "Ao Qiao", "Zheyuan He", "Shuwei Song", "Yu Jiang", "Sixing Li"],
+          "title": "SCVHunter: Smart Contract Vulnerability Detection Based on Heterogeneous Graph Attention Network",
+          "venue": "IEEE/ACM International Conference on Software Engineering (ICSE)",
+          "year": 2024,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Qingyuan Liu", "Ting Chen", "Xiaoze Ni", "Tao Liu", "Shuwei Song", "Jiahao He"],
+          "title": "Blockchain-based Transaction Group Key Management Scheme for Edge Devices",
+          "venue": "IEEE International Conference on Green Computing and Communications (GreenCom)",
+          "year": 2023,
+          "note": "Best Paper (1/67)"
+        },
+        {
+          "authors": ["Jiajing Wu", "Jieli Liu", "Jinze Chen", "Ting Chen", "Jingwei Li", "Shuwei Song", "Jiahao He"],
+          "title": "ContraPonzi: Smart Ponzi Scheme Detection for Ethereum via Contrastive Learning",
+          "venue": "ACM International Artificial Intelligence and Blockchain Conference (AIBC)",
+          "year": 2023,
+          "note": "Best Paper"
+        }
+      ]
+    },
+    {
+      "title": "Journal Papers",
+      "items": [
+        {
+          "authors": ["Renkai Jiang", "Shuwei Song", "Xiapu Luo", "Ting Chen", "Ruijie Luo", "Bingsen Wang", "Ao Qiao"],
+          "title": "DEALS: Tracking Token Transfer Information Inconsistency",
+          "venue": "Journal of Computer Research and Development, 61(2): 274-288",
+          "year": 2024,
+          "doi": "10.7544/issn1000-1239.202330613",
+          "ccf": "A"
+        },
+        {
+          "authors": ["Shuwei Song", "Xiaoze Ni", "Ting Chen"],
+          "title": "Gas Optimization for Smart Contracts: A Survey",
+          "venue": "Journal of Computer Research and Development, 60(2): 311-325",
+          "year": 2023,
+          "doi": "10.7544/issn1000-1239.202220887",
+          "ccf": "A"
+        },
+        {
+          "authors": ["Zheyuan He", "Shuwei Song", "Yang Bai", "Xiapu Luo", "Ting Chen", "Wensheng Zhang", "Peng He", "Hongwei Li", "Xiaodong Lin", "Xiaosong Zhang"],
+          "title": "TokenAware: Accurate and Efficient Bookkeeping Recognition for Token Smart Contracts",
+          "venue": "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+          "year": 2023,
+          "ccf": "A"
+        },
+        {
+          "authors": ["Zhou Liao", "Shuwei Song", "Hang Zhu", "Xiapu Luo", "Zheyuan He", "Renkai Jiang", "Ting Chen", "Jiachi Chen", "Tao Zhang", "Xiaosong Zhang"],
+          "title": "Large-Scale Empirical Study of Inline Assembly on 7.6 Million Ethereum Smart Contracts",
+          "venue": "IEEE Transactions on Software Engineering (TSE)",
+          "year": 2022,
+          "ccf": "A"
+        }
+      ]
+    }
+  ]
+}

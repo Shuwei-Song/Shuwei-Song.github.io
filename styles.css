@@ -91,6 +91,18 @@ h2 {
   letter-spacing: 0.01em;
 }
 
+.pub-group-title {
+  margin: 1rem 0 0.5rem;
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.load-error {
+  color: var(--muted);
+}
+
 ul,
 ol {
   margin: 0.45rem 0 0;
@@ -122,14 +134,45 @@ li + li {
 
 @media (max-width: 640px) {
   .container {
+    padding: 2.1rem 1rem 3rem;
     padding-top: 2.1rem;
   }
 
   .hero {
     align-items: flex-start;
+    gap: 0.9rem;
+  }
+
+  .avatar {
+    width: 78px;
+    height: 78px;
   }
 
   h1 {
     font-size: 1.7rem;
+  }
+
+  .subtitle {
+    margin-bottom: 0.5rem;
+  }
+
+  .links {
+    gap: 0.6rem;
+  }
+
+  .pub-group-title {
+    margin: 0.9rem 0 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  .pub-list {
+    margin-top: 0.35rem;
+    padding-left: 1rem;
+  }
+
+  .pub-list li {
+    margin-bottom: 0.6rem;
+    line-height: 1.55;
+    overflow-wrap: anywhere;
   }
 }
