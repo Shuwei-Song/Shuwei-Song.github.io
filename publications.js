@@ -31,6 +31,14 @@ function formatAuthors(authors) {
     .join(", ");
 }
 
+function formatNote(note) {
+  const escapedNote = escapeHtml(note);
+  if (/best(?:\s+student)?\s+paper/i.test(note)) {
+    return `<strong>${escapedNote}</strong>`;
+  }
+  return escapedNote;
+}
+
 function renderCitation(item) {
   const parts = [
     `${formatAuthors(item.authors)}.`,
@@ -39,7 +47,7 @@ function renderCitation(item) {
   ];
 
   if (item.note) {
-    parts.push(`${escapeHtml(item.note)}.`);
+    parts.push(`${formatNote(item.note)}.`);
   }
   if (item.doi) {
     parts.push(`DOI: ${escapeHtml(item.doi)}.`);

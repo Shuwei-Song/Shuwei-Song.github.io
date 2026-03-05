@@ -58,7 +58,8 @@
           "title": "An Empirical Study on the Performance of EVMs and Wasm VMs for Smart Contract Execution",
           "venue": "International Conference on Blockchain, Metaverse and Trustworthy Systems (BlockSys)",
           "year": 2024,
-          "note": "Best Paper"
+          "note": "Best Paper",
+          "ccf": "C"
         },
         {
           "authors": ["Zheyuan He", "Zihao Li", "Ao Qiao", "Xiapu Luo", "Xiaosong Zhang", "Ting Chen", "Shuwei Song", "Dijun Liu", "Weina Niu"],
