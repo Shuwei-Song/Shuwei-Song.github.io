@@ -132,6 +132,14 @@ li + li {
   margin-bottom: 0.75rem;
 }
 
+.equal-contribution {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.9em;
+  font-style: italic;
+}
+
 @media (max-width: 640px) {
   .container {
     padding: 2.1rem 1rem 3rem;

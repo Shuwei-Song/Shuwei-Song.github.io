@@ -4,6 +4,14 @@
       "title": "Conference Papers",
       "items": [
         {
+          "authors": ["Liang Wang", "Shuwei Song", "Ting Chen"],
+          "equalContributionAuthors": ["Liang Wang", "Shuwei Song"],
+          "title": "An Empirical Study of the Stablecoin-Oriented Blockchain: Smart Contracts, Transactions, and Security on Plasma",
+          "venue": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (BlockSys)",
+          "year": 2026,
+          "ccf": "C"
+        },
+        {
           "authors": ["Feng Luo", "Zihao Li", "Wenxuan Luo", "Zheyuan He", "Xiapu Luo", "Zuchao Ma", "Shuwei Song", "Ting Chen"],
           "title": "Light into Darkness: Demystifying Profit Strategies Throughout the MEV Bot Lifecycle",
           "venue": "Network and Distributed System Security Symposium (NDSS)",

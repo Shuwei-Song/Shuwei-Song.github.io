@@ -19,14 +19,19 @@ function addPeriod(text) {
   return `${trimmed}.`;
 }
 
-function formatAuthors(authors) {
+function formatAuthors(authors, equalContributionAuthors = []) {
+  const equalContributors = new Set(equalContributionAuthors);
+
   return authors
     .map((name) => {
       const escaped = escapeHtml(name);
+      const marker = equalContributors.has(name)
+        ? '<sup aria-label="equal contribution">*</sup>'
+        : "";
       if (name === highlightedAuthor) {
-        return `<strong>${escaped}</strong>`;
+        return `<strong>${escaped}</strong>${marker}`;
       }
-      return escaped;
+      return `${escaped}${marker}`;
     })
     .join(", ");
 }
@@ -41,7 +46,7 @@ function formatNote(note) {
 
 function renderCitation(item) {
   const parts = [
-    `${formatAuthors(item.authors)}.`,
+    `${formatAuthors(item.authors, item.equalContributionAuthors)}.`,
     `"${addPeriod(escapeHtml(item.title))}"`,
     `${escapeHtml(item.venue)}, ${item.year}.`,
   ];
@@ -54,6 +59,9 @@ function renderCitation(item) {
   }
   if (item.ccf) {
     parts.push(`<strong>CCF-${escapeHtml(item.ccf)}</strong>`);
+  }
+  if (item.equalContributionAuthors?.length) {
+    parts.push('<span class="equal-contribution"><sup>*</sup> Equal contribution.</span>');
   }
 
   return `<li>${parts.join(" ")}</li>`;
